@@ -11,6 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/books/")
+@CrossOrigin("*")
 public class BooksRestController {
 
     private final BookService bookService;
