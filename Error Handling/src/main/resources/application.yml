@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: Errors
+server:
+  error:
+    include-stacktrace: always
+    whitelabel:
+      enabled: on
+    include-message: always
